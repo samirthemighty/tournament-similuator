@@ -1,4 +1,4 @@
-from rapper_list import rappers
+from rappers_list import rappers
 import random
 # ask user if they want 8 16 32 bracket
 # make randomizer to get x amount of rappers in bracket
@@ -67,7 +67,7 @@ def main():
     if len(next_bracket) == 1:
       return next_bracket[0]
     print(f'\n{nextround}')
-      # ['a','b','c','d','e','f','g']
+      # returning the next bracket with the previous bracket winners
     return next_bracket
 
 
